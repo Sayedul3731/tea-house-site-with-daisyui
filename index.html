@@ -130,14 +130,14 @@
         </div>
     </section>
     <!-- super clients section starts here  -->
-    <section class="max-w-7xl mx-auto py-10 bg-gradient-to-r from-[#FF8938] to-[#F00] flex flex-1 p-20 gap-12 rounded-lg">
-     <div class="flex justify-center items-center pr-12">
+    <section class="max-w-7xl mx-auto py-10 bg-gradient-to-r from-[#FF8938] to-[#F00] flex flex-col lg:flex-row p-20 gap-12 rounded-lg">
+     <div class="flex justify-center items-center lg:pr-12">
         <div class="text-white">
-            <h1 class="text-5xl font-extrabold">Meet Our Super
+            <h1 class="text-3xl lg:text-5xl font-extrabold">Meet Our Super
                 <br> Clients</h1>
             <p class="font-medium leading-7 my-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             <button class="btn bg-white">Show All</button>
-           </div>
+        </div>
      </div>
       <div class="relative">
         <div class="relative bg-white rounded-lg p-7 opacity-50 mb-20 z-10">
@@ -171,12 +171,13 @@
     </section>
     <!-- news section starts here  -->
     <section class="max-w-7xl mx-auto py-10 mt-16">
+       <div class="grid grid-cols-1">
         <div class="text-center">
             <h1 class="text-5xl font-extrabold text-[#1c1c1c] mb-5">News & Events</h1>
             <p class="font-medium text-[#777] px-24">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-12">
-            <div class="card bg-base-100 shadow-xl text-left">
+            <div class="card bg-base-100 shadow-xl text-left p-4">
                 <figure><img src="./images/news-1.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <p class="font-medium text-[#777]">Feb 05, 2027</p>
@@ -187,7 +188,7 @@
                   </div>
                 </div>
               </div>
-            <div class="card bg-base-100 shadow-xl text-left">
+            <div class="card bg-base-100 shadow-xl text-left p-4">
                 <figure><img src="./images/news-2.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <p class="font-medium text-[#777]">Feb 05, 2027</p>
@@ -198,7 +199,7 @@
                   </div>
                 </div>
               </div>
-            <div class="card bg-base-100 shadow-xl text-left">
+            <div class="card bg-base-100 shadow-xl text-left p-4">
                 <figure><img src="./images/news-3.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <p class="font-medium text-[#777]">Feb 05, 2027</p>
@@ -210,11 +211,57 @@
                 </div>
               </div>
         </div>
+       </div>
     </section>
 </main>
-<footer>
-
-</footer>
+<footer class="footer p-10 bg-[#ff89381a] text-base-content flex flex-col lg:px-32">
+    <div class="flex flex-col lg:flex-row justify-between items-center w-full">
+        <div>
+            <img src="./images/cup.png" alt="">
+        </div>
+        <div class="flex items-center mt-10 lg:mt-0 gap-20">
+            <h1 class="text-xl font-medium text-[#494949]">Ready to get strated?</h1>
+            <button class="btn text-white bg-gradient-to-l from-red-500 to-amber-500">Get Started</button>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-4 pl-24 lg:pl-0">
+        <div class="grid grid-cols-1 leading-7">
+            <span class="footer-title">Services</span> 
+            <a class="link link-hover">Branding</a> 
+            <a class="link link-hover">Design</a> 
+            <a class="link link-hover">Marketing</a> 
+            <a class="link link-hover">Advertisement</a>
+          </div> 
+          <div class="grid grid-cols-1 leading-7">
+            <span class="footer-title">Company</span> 
+            <a class="link link-hover">About us</a> 
+            <a class="link link-hover">Contact</a> 
+            <a class="link link-hover">Jobs</a> 
+            <a class="link link-hover">Press kit</a>
+          </div> 
+          <div class="grid grid-cols-1 leading-7">
+            <span class="footer-title">Legal</span> 
+            <a class="link link-hover">Terms of use</a> 
+            <a class="link link-hover">Privacy policy</a> 
+            <a class="link link-hover">Cookie policy</a>
+          </div> 
+          <div class="grid grid-cols-1">
+            <span class="footer-title">Newsletter</span> 
+            <div class="form-control w-full lg:w-80">
+              <div class="relative mt-10 w-full">
+                <div class="flex flex-row gap-10 lg:gap-40">
+                    <div><p>Email Address</p></div>
+                <div class="flex justify-center items-center text-white bg-gradient-to-l from-red-500 to-amber-500 w-10 h-10 rounded-full"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+                <div class="w-32 lg:w-64 h-[1px] mt-3 bg-gray-600"></div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="flex justify-center items-center w-full">
+        <p>© 2027 UIDesign.to - All rights reserved.</p>
+    </div>
+  </footer>
 
 <body>
 
